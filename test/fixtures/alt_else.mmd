@@ -1,0 +1,7 @@
+sequenceDiagram
+    Alice->>Bob: Authenticate
+    alt success
+        Bob-->>Alice: Token
+    else failure
+        Bob-->>Alice: Error
+    end

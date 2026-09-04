@@ -1,0 +1,6 @@
+@startuml
+participant "Alice A." as A
+participant Bob as B
+A -> B: Hello
+B --> A: Hi back
+@enduml
