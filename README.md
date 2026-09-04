@@ -1,12 +1,22 @@
-# Sargasso
+# Sargasso 🌊
 
-Sargasso converts PlantUML diagram source into equivalent Mermaid diagram
-source. It fills a genuine gap: no Ruby gem does this today, and the wider
+**PlantUML goes in, Mermaid comes out.**
+
+The Sargasso Sea is the one stretch of ocean defined by its seaweed rather than
+its shores, a floating tangle that catches whatever drifts through. This gem is
+that tangle for your diagrams: feed it PlantUML and it hands back the equivalent
+Mermaid, so your old diagrams wash up somewhere they can actually be rendered.
+
+```
+🧜 PlantUML sequence diagrams -> Mermaid, in pure Ruby
+🪸 Parser -> AST -> Emitter, so new diagram types can grow on the reef
+🐚 Nothing dropped silently: unknown syntax warns, or raises under --strict
+```
+
+It also fills a genuine gap: no Ruby gem does this today, and the wider
 ecosystem is thin (a couple of JavaScript tools, some hosted web apps).
 
-Named for the free-floating *Sargassum* seaweed of the Sargasso Sea (the only
-sea defined by seaweed rather than land), matching the aquatic-plant theme of
-its sibling gem `keela`.
+Named for the free-floating *Sargassum* seaweed of the Sargasso Sea.
 
 ## Why parse the source directly (the no-clean-bridge rationale)
 
