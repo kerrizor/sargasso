@@ -7,11 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
-
-- Minimum Ruby version raised to 3.3.0 (the development toolchain requires it)
-
-## [0.0.1] - 2026-09-03
+## [0.0.1] - 2026-09-04
 
 ### Added
 
@@ -22,3 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CLI (`sargasso`) with file argument, stdin via `-`, `--quiet`, and `--strict`
 - Unsupported PlantUML constructs are reported as warnings by default, or raise `Sargasso::UnsupportedConstructError` under `--strict`
 - Minitest suite with golden-file fixtures (`.puml` / `.mmd` pairs)
+
+### Notes
+
+- Requires Ruby >= 3.3.0
+
+[Unreleased]: https://github.com/kerrizor/sargasso/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/kerrizor/sargasso/releases/tag/v0.0.1
