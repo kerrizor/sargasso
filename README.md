@@ -112,10 +112,19 @@ Tests use golden-file fixtures: each pair `test/fixtures/<name>.puml` and
 `test/fixtures/<name>.mmd` asserts that converting the PlantUML input produces
 the expected Mermaid output.
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of notable changes to each release.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/kerrizor/sargasso.
+https://github.com/kerrizor/sargasso. See [CONTRIBUTING.md](CONTRIBUTING.md) for
+development setup, the `Parser -> AST -> Emitter` architecture, and how to add
+support for a new construct or diagram type.
+
+Everyone interacting in the Sargasso project is expected to follow the
+[Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
